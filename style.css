@@ -5,6 +5,7 @@
 }
 body{
     height: 100vh;
+    overflow-x: hidden;
 }
 .hero-image {
   background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60");
@@ -56,15 +57,21 @@ button:hover{
 .food-list{
     margin-top: .1rem;
     display: flex;
+    height: 50px;
+    
    
 
 }
 .food-list-item{
-    width: 100%;
-   
-    align-items: center;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    border-style: 12px solid yellow;
+    padding: 0.3rem;
 }
-.food-list-item img{
-    width: 33%;
-    margin: auto;
+img{
+    width: 100%;
+    height: 300px;
+    
 }
